@@ -1,0 +1,13 @@
+ #myHeader {
+   background-color: rgb(113, 116, 160);
+   color: rgba(148, 52, 52, 0.993);
+   padding: 40px;
+   text-align: start;
+ }
+
+     #my-header {
+       background-color: rgb(255, 255, 255);
+       color: hsl(147, 26%, 29%);
+       padding: 40px;
+       text-align: right;
+     }
