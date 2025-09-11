@@ -8,3 +8,9 @@
   color: gold;
   padding: 10px;
 }
+
+img {
+  width: 300px;
+  height: auto;
+  /* Keeps aspect ratio */
+}
