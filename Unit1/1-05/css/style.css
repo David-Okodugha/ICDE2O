@@ -11,3 +11,9 @@
        padding: 40px;
        text-align: right;
      }
+
+         .city {
+           background-color: rgb(61, 28, 22);
+           color: rgb(212, 199, 10); 
+           padding: 10px;
+         }
