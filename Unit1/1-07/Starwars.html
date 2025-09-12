@@ -1,46 +1,63 @@
 <!DOCTYPE html>
 <!--ICD2O Unit 1-07 HTLM Starwars-->
-<html lang="en-ca">
-<head>
-  <link rel="stylesheet" href="./css/Starwars.css">
-  <meta charset="utf8">
-  <meta name="description" content="Starwars Wiki">
-  <meta name="Keywords" content="Star, ICD2O">
-  <meta name="author" contant="David">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Starwars</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-</head>
-<body style="background-color: rgb(30, 2, 54);">
-  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row">
-        <!-- Title -->
-        <span class="mdl-layout-title">Title</span>
-        <!-- Add spacer, to align navigation to the right -->
-        <div class="mdl-layout-spacer"></div>
-        <!-- Navigation. We hide it in small screens. -->
-        <nav class="mdl-navigation mdl-layout--large-screen-only">
+<html lang="ca-na">
+  <head>
+    <link rel="stylesheet" href="./css/Starwars.css">
+    <meta charset="utf8">
+    <meta name="description" content="Starwars Wiki">
+    <meta name="Keywords" content="Star, ICD2O">
+    <meta name="author" content="David">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starwars</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  </head>
+  <body style="background-color: rgb(29, 2, 54);">
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Title -->
+          <span class="mdl-layout-title">Starwars</span>
+          <!-- Add spacer, to align navigation to the right -->
+          <div class="mdl-layout-spacer"></div>
+          <!-- Navigation. We hide it in small screens. -->
+          <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+            <a class="mdl-navigation__link" href="">Link</a>
+          </nav>
+        </div>
+      </header>
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Starwars</span>
+        <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="">Link</a>
           <a class="mdl-navigation__link" href="">Link</a>
           <a class="mdl-navigation__link" href="">Link</a>
           <a class="mdl-navigation__link" href="">Link</a>
         </nav>
       </div>
-    </header>
-    <div class="mdl-layout__drawer">
-      <span class="mdl-layout-title">Title</span>
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">The Force</a>
-        <a class="mdl-navigation__link" href="">The Dark side</a>
-        <a class="mdl-navigation__link" href="">Darth Vader</a>
-      </nav>
+      <main class="mdl-layout__content">
+        <div class="page-content"><!-- Your content goes here --></div>
+      </main>
     </div>
-    <main class="mdl-layout__content">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </main>
-  </div>
-  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-cyan.min.css" />
-</body>
+    <br>
+    <br>
+    <br>
+    <form action="#">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Search...</label>
+      </div>
+    </form>
+    <br>
+    <!-- Raised button with ripple -->
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+      Button
+    </button>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-indigo.min.css" />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  </body>
+</html>
