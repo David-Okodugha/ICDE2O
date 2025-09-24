@@ -1,0 +1,23 @@
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+
+.demo-card-wide>.mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url("../images/the-everything-travel-guide-to-italy-9781440501807_hr.jpg") center / cover;
+}
+
+.demo-card-wide>.mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-wide>.mdl-card__menu{
+  left: 400px;
+  position: relative;
+}
+
+.mdl-layout-title {
+  text-align: center;
+}
