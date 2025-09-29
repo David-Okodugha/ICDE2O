@@ -20,20 +20,22 @@
 
 
   <body style="background-color: rgb(4, 46, 85);">
-    <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
+ 
+
+    <!-- Uses a header that scrolls with the text, rather than staying
+      locked at the top -->
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll">
         <div class="mdl-layout__header-row">
           <!-- Title -->
-          <span class="mdl-layout-title">Title</span>
+          <span class="mdl-layout-title">Travel Guide</span>
           <!-- Add spacer, to align navigation to the right -->
           <div class="mdl-layout-spacer"></div>
-          <!-- Navigation. We hide it in small screens. -->
-          <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
-            <a class="mdl-navigation__link" href="">Link</a>
+          <!-- Navigation -->
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="./index.html">Home</a>
+            <a class="mdl-navigation__link" href="./index2.html">Attraction page</a>
+            <a class="mdl-navigation__link" href="./index3.html">Interactive page</a>
           </nav>
         </div>
       </header>
@@ -53,25 +55,19 @@
 
 
 
-    <!-- Wide card with share menu button -->
-    <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-      <div class="mdl-card__title">
-        <h2 class="mdl-card__title-text">Welcome</h2>
-      </div>
-      <div class="mdl-card__supporting-text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Mauris sagittis pellentesque lacus eleifend lacinia...
-      </div>
-      <div class="mdl-card__actions mdl-card--border">
-        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-          Get Started
-        </a>
-      </div>
-      <div class="mdl-card__menu">
-        <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-          <i class="material-icons">share</i>
-        </button>
-      </div>
-    </div>
+   <img class="ItalyImage" src ="./images/the-everything-travel-guide-to-italy-9781440501807_hr.jpg" alt="Itally grivel guide picture">
+
+  
+
+  <!-- Accent-colored raised button -->
+<a href="index2.html">
+   <button class="ColorButton">
+    book your trip now
+  </button>
+</a>
+
+
+
+  <p class="text">Italy a place to have fun, eat great food, and explore new places</p>
   </body>
 </html>

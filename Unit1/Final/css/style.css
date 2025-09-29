@@ -1,23 +1,51 @@
-
-.demo-card-wide.mdl-card {
-  width: 512px;
-}
-
-.demo-card-wide>.mdl-card__title {
-  color: #fff;
-  height: 176px;
-  background: url("../images/the-everything-travel-guide-to-italy-9781440501807_hr.jpg") center / cover;
-}
-
-.demo-card-wide>.mdl-card__menu {
-  color: #fff;
-}
-
-.demo-card-wide>.mdl-card__menu{
-  left: 400px;
+.ItalyImage{
+  width: 800px;
+  height: 400px;
   position: relative;
+  left: 570px;
 }
 
-.mdl-layout-title {
+.ColorButton{
+  text-emphasis-color: black;
+  color: rgba(45, 45, 223, 0.658);
+  position: relative;
+  right: 210px;
+  top: 180px;
+}
+
+.text{
+  color: rgb(1, 1, 44);
+  position: relative;
+  top: -120px;
+  left: 590px;
+  font-weight: bold;
+}
+
+.city{
   text-align: center;
+  color: antiquewhite;
+  font-weight: bold;
+}
+
+.city2{
+  color:antiquewhite;
+}
+
+.city3{
+  color:rgb(64, 64, 78);
+  font-weight: bolder;
+}
+
+.image2{
+    width: 300px;
+    height: auto;
+    /* Keeps aspect ratio */
+  }
+
+#mdl-buttoncolored{
+  color:rgb(14, 48, 48)
+}
+
+#icons{
+  color: rgb(14, 48, 48);
 }
